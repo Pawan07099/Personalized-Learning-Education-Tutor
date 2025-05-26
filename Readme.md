@@ -177,5 +177,5 @@ npm run dev
 
 ## 📞 Contact  
 - Pawan Kumar - Your GitHub Profile Link
-- LinkedIn: [Your LinkedIn Profile Link] (Optional)
-- Email: [Your Email Address] (Optional)
+- LinkedIn: https://www.linkedin.com/in/pawan-kumar-d-011029229
+- Email: [Kumarpawan07099@gmail.com] 
