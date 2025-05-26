@@ -83,6 +83,4 @@ Open **three separate terminals** and run the following commands:
 cd backend  
 node server.js  
 
----
-
----
+2. **Terminal 2: ** Run the Node.js application (if separate)
