@@ -1,0 +1,41 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "compile": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^2.6.0",
+    "@google/generative-ai": "^0.13.0",
+    "@mistralai/mistralai": "^1.1.0",
+    "@pinecone-database/pinecone": "^4.0.0",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.13.0",
+    "groq": "^3.64.1",
+    "groq-sdk": "^0.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^8.8.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.3",
+    "octokit": "^4.0.2",
+    "splunk-sdk": "^2.0.0",
+    "ssh2": "^1.15.0",
+    "winston": "^3.14.1"
+  },
+  "type": "module"
+}
