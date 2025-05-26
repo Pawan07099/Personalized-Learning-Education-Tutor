@@ -77,6 +77,28 @@ Traditional teaching approaches often use uniform pedagogical methods across div
 ## Installation Steps 🪜  
 
 ### Backend Setup  
+
+### Environment Variables Setup  
+Before running the servers, create a `.env` file in the `backend` directory and add the following variables:
+
+```env
+# MongoDB
+MONGO_URI=your_mongodb_connection_string
+
+# JWT Secret (for Node.js authentication)
+JWT_SECRET=a_very_long_random_secret_key_for_jwt_signing
+
+# Groq API Key
+GROQ_API_KEY=your_groq_api_key
+
+# Pinecone API Key
+PINECONE_API_KEY=your_pinecone_api_key
+# PINECONE_ENVIRONMENT=your_pinecone_environment # Only needed for pod-based indexes, e.g., 'gcp-starter'
+
+# Google Client ID (for any Google OAuth integration)
+GOOGLE_CLIENT_ID=your_google_client_id
+```
+
 Open **three separate terminals** and run the following commands:
 
 1. **Terminal 1:** Start the Node.js server  
