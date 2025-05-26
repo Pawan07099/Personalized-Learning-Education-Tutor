@@ -1,3 +1,4 @@
+
 # PERSONALIZED LEARNING REMEDIATION / EDUCATION TUTOR
 
 ## Description 📝  
@@ -82,5 +83,78 @@ Open **three separate terminals** and run the following commands:
 ```bash
 cd backend  
 node server.js  
+```
 
-2. **Terminal 2: ** Run the Node.js application (if separate)
+2. **Terminal 2:** Run the Node.js application (if separate)  
+```bash
+cd backend  
+npm run start  
+```
+
+3. **Terminal 3:** Run the Python backend service  
+```bash
+cd backend/python_service  # adjust path if needed  
+python app.py  
+```
+
+---
+
+### Frontend Setup  
+In a **new terminal**, run:  
+```bash
+cd frontend  
+npm install  
+npm run dev  
+```
+
+---
+
+## Requirements  
+
+### Functional Requirements  
+- User authentication and profile management  
+- Input mechanism for academic year, subject, and module details  
+- NLP-based topic identification system  
+- AI-powered pedagogy suggestion engine  
+- Methodology generation system using Gemini API  
+- Feedback system for accepting/rejecting suggestions  
+- Dashboard for viewing top pedagogical approaches  
+- Real-time dataset updates  
+- Reporting and analytics features  
+
+### Non-Functional Requirements  
+- Scalability to handle increasing user base  
+- High performance with quick response times  
+- Data security and compliance  
+- User-friendly interface  
+- High availability and reliability  
+- Cross-device compatibility  
+- Extensibility for future features  
+
+---
+
+## Project Team 👥  
+- Anirudh Hegde (1DS21AI003)  
+- E Harshith (1DS21AI016)  
+- SK Sai Tarun (1DS21AI050)  
+- Suprith A S (1DS21AI052)  
+
+---
+
+## Project Timeline 📅  
+
+| Phase     | Activities                          |
+|-----------|-----------------------------------|
+| Phase 1   | Data Collection, AI Model for Pedagogy Suggestion  |
+| Phase 2   | AI Model for Andragogy Suggestion  |
+| Phase 3   | UI Development, Model Integration  |
+| Phase 4   | System Integration, Testing and Deployment |
+
+---
+
+## Expected Outcomes 🎯  
+- Enhanced teaching effectiveness through data-driven methodology selection  
+- Improved student engagement and learning outcomes  
+- Personalized learning experiences for different student groups  
+- Efficient resource utilization in educational settings  
+- Systematic improvement in teaching methodologies over time  
