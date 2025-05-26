@@ -171,4 +171,11 @@ npm run dev
 - Improved student engagement and learning outcomes  
 - Personalized learning experiences for different student groups  
 - Efficient resource utilization in educational settings  
-- Systematic improvement in teaching methodologies over time  
+- Systematic improvement in teaching methodologies over time
+
+  ---
+
+## 📞 Contact  
+- Pawan Kumar - Your GitHub Profile Link
+- LinkedIn: [Your LinkedIn Profile Link] (Optional)
+- Email: [Your Email Address] (Optional)
